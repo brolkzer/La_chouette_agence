@@ -362,6 +362,10 @@ a:hover {
     z-index: 2;
 }
 
+.image-text{
+    max-width: 100%;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -702,6 +706,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -741,6 +748,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: 0 auto;
 }
 
 .portfolio-row {
